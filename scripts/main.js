@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var data_js_1 = require("./data.js");
+import { pilotos } from './data.js';
 var seriesTbody = document.getElementById('pilotos');
 function renderSeriesInTable(pilotos, seriesTbody) {
     //let totalSeasons: number = 0;
@@ -11,4 +9,4 @@ function renderSeriesInTable(pilotos, seriesTbody) {
         //totalSeasons += s.seasons;
     });
 }
-renderSeriesInTable(data_js_1.pilotos, seriesTbody);
+renderSeriesInTable(pilotos, seriesTbody);

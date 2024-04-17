@@ -1,4 +1,4 @@
-import { Piloto } from "./Serie.js";
+import { Piloto } from "./piloto.js";
 
 export const pilotos = [
     new Piloto  (1,"Lewis Hamilton","Britanico", "Mercedes","Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer" ,

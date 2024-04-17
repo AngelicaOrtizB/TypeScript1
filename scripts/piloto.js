@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Piloto = void 0;
 var Piloto = /** @class */ (function () {
     function Piloto(id, name, nacionalidad, equipoActual, description, link, image) {
         this.id = id;
@@ -13,4 +10,4 @@ var Piloto = /** @class */ (function () {
     }
     return Piloto;
 }());
-exports.Piloto = Piloto;
+export { Piloto };

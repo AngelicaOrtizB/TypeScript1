@@ -1,5 +1,5 @@
 import { pilotos } from './data.js';
-import { Piloto  } from './Serie.js';
+import { Piloto  } from './piloto.js';
 const seriesTbody: HTMLElement = document.getElementById('pilotos')!; 
 //quiero hacer un commit
 function renderSeriesInTable(pilotos: Piloto [], seriesTbody: HTMLElement): void {
